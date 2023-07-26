@@ -48,12 +48,12 @@ a:hover {
     width: 100vw;
     position: fixed;
     z-index: 5;
-    background-color: var(--white);
+    background-color: var(--dark-red);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: var(--dark-red);
+    color: var(--white);
     padding: 30px;
     text-align: center;
 }
@@ -92,6 +92,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url("/public/assets/nav-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 
 .navbar-header .contact {
@@ -401,6 +405,10 @@ footer .contact {
 }
 
 @media (max-width: 500px){
+    .splash {
+        padding: 60px 40px;
+    }
+
     .navbar-header {
         height: 100px;
     }
@@ -510,7 +518,6 @@ footer .contact {
     }
 
     footer .contact {
-        align-self: flex-end;
         margin-top: 0;
         margin-bottom: 1rem;
     }

@@ -18,7 +18,7 @@ export default function Footer(){
                     <p>Fax. (021) 29094395</p>
                 </div>
             </div>
-            <a href="mailto:johanesashn@gmail.com" target="_blank" className="contact">Contact Us</a>
+            <a href="mailto:johanesalbertosiahaan15092003@gmail.com" target="_blank" className="contact">Contact Us</a>
         </footer>
     )
 }

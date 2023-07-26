@@ -12,7 +12,7 @@ export default function App(){
   useEffect(() => {
     setTimeout(() => {
       setLoad(false)
-    }, 2000);
+    }, 1500);
   }, [])
 
   const service = ""
