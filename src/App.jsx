@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import Footer from "./components/Footer"
@@ -17,7 +17,7 @@ export default function App(){
 
   const service = ""
   return (
-    <BrowserRouter>
+    <Router>
       {load 
         ?
           <Splash/>
@@ -30,6 +30,6 @@ export default function App(){
           <Footer/>
         </>
       }
-    </BrowserRouter>
+    </Router>
   )
 }

@@ -395,12 +395,18 @@ footer .contact {
         flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
-        margin-bottom: 180px;
         padding-left: 20%;
+        margin-bottom: 290px;
     }
 
     .images img{
         width: 40%;
+    }
+}
+
+@media (max-width: 780px){
+    .images {
+        margin-bottom: 180px;
     }
 }
 
