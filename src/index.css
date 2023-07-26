@@ -498,6 +498,7 @@ footer .contact {
         gap: 10px;
         justify-content: center;
         margin-bottom: 30px;
+        padding: 0 30px;
     }
 
     .images img{
